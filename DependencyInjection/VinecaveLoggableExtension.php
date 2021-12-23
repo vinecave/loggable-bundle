@@ -13,6 +13,6 @@ class VinecaveLoggableExtension extends AbstractExtension
         $container->registerForAutoconfiguration(LoggableInterface::class)
             ->addTag(LoggableInterface::class);
 
-        $this->loadExtension($container, __DIR__);
+        $this->loadExtension($container, __DIR__ . '/..');
     }
 }
