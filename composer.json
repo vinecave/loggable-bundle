@@ -7,6 +7,7 @@
 
   "require": {
     "php":                          "~7.4 || ~8.0",
+    "vinecave/collection-bundle":   "~0.0.2",
     "symfony/monolog-bundle":       "^3.7",
     "symfony/config":               "~3.4 || ~4.0 || ~5.0",
     "symfony/dependency-injection": "~3.4 || ~4.0 || ~5.0",
