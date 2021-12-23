@@ -4,6 +4,7 @@ namespace Vinecave\Bundle\LoggableBundle;
 
 use Vinecave\Bundle\LoggableBundle\DependencyInjection\LoggableCompilerPass;
 use Symfony\Component\DependencyInjection\Compiler\PassConfig;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class VinecaveLoggableBundle extends Bundle
