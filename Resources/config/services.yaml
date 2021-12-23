@@ -1,0 +1,5 @@
+services:
+  Vinecave\Bundle\LoggableBundle\:
+    autoconfigure: true
+    autowire: true
+    resource:   '../../'
